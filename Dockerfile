@@ -1,7 +1,5 @@
 FROM cliffield/alpine-base:latest
-
 MAINTAINER Cliffield <cliffield@protonmail.com>
-
 LABEL image.version="0.1" \
       image.description="Docker image for Headphones, based on docker image of Alpine" \
       image.date="2017-11-06" \
