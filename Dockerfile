@@ -78,8 +78,7 @@ RUN \
 # set the working directory for the APP
 WORKDIR $APP_HOME/app
 
-# copy files to the image (info.txt and scripts)
-COPY *.txt /init/
+# copy files to the image
 COPY *.sh /init/
 
 # Set volumes for the Data files
