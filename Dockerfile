@@ -34,7 +34,7 @@ ENV \
     # - PKG_*: the needed applications for installation
     PKG_ADD="ffmpeg flac" \
     PKG_DEV="g++ gcc make tar gzip" \
-    PKG_PYTHON="ca-certificates python"
+    PKG_PYTHON="python"
 	
 RUN \
     # create temporary directories
